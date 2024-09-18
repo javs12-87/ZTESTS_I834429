@@ -1,0 +1,14 @@
+managed implementation in class zbp_5s2f_reg_view unique;
+strict ( 1 );
+
+define behavior for z5s2f_reg_view //alias <alias_name>
+persistent table z5s2f_reg
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  function SendMail parameter z5s2f_reg_param result[1] z5s2f_reg_param;
+}

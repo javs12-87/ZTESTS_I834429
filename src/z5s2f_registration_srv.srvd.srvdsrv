@@ -1,0 +1,4 @@
+@EndUserText.label: '5s2f_registration'
+define service Z5s2f_registration_srv {
+  expose z5s2f_reg_view;
+}

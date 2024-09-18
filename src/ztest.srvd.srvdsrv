@@ -1,0 +1,5 @@
+@EndUserText.label: 'ZTEST'
+@OData.schema.name: 'ZZ1_SALESTRACKING_CDS'
+define service ZTEST {
+ expose ZZO_S4H_ZZ1_SALESTRACKING; 
+ } 
